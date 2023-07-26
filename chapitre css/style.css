@@ -1,12 +1,19 @@
 /* selecteur avec propriété class avec un '.' et id avec un '#' */
 p, h1
 {
+
+    /*margin = marge interieure, padding = marge exterieure ; avec la propriéte auto il est centré automatiquement */
+    margin: auto;
+    padding: auto;
     color: white;
-    font-size: xx-large;
-    text-align: center;
+    /*font-size: xx-large;
+    text-align: center;*/
     /*border: 5px red solid;*/
     background-color: black;
-    box-shadow: 6px 6px 0px black;
+    box-shadow: 6px 6px 0px grey;
+    /* largeur des bloc par defaut 100% */
+    width: 250px;
+    overflow: auto;
 }
 
 em 
